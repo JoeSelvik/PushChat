@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8856A72D18A87E73006D68F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8856A72C18A87E73006D68F5 /* Foundation.framework */; };
+		8856A72F18A87E73006D68F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8856A72E18A87E73006D68F5 /* CoreGraphics.framework */; };
+		8856A73118A87E73006D68F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8856A73018A87E73006D68F5 /* UIKit.framework */; };
+		8856A73718A87E73006D68F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8856A73518A87E73006D68F5 /* InfoPlist.strings */; };
+		8856A73918A87E73006D68F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8856A73818A87E73006D68F5 /* main.m */; };
+		8856A73D18A87E73006D68F5 /* TNTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8856A73C18A87E73006D68F5 /* TNTAppDelegate.m */; };
+		8856A74018A87E73006D68F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8856A73E18A87E73006D68F5 /* Main.storyboard */; };
+		8856A74318A87E73006D68F5 /* TNTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8856A74218A87E73006D68F5 /* TNTViewController.m */; };
+		8856A74518A87E73006D68F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8856A74418A87E73006D68F5 /* Images.xcassets */; };
+		8856A74C18A87E74006D68F5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8856A74B18A87E74006D68F5 /* XCTest.framework */; };
+		8856A74D18A87E74006D68F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8856A72C18A87E73006D68F5 /* Foundation.framework */; };
+		8856A74E18A87E74006D68F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8856A73018A87E73006D68F5 /* UIKit.framework */; };
+		8856A75618A87E74006D68F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8856A75418A87E74006D68F5 /* InfoPlist.strings */; };
+		8856A75818A87E74006D68F5 /* PushChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8856A75718A87E74006D68F5 /* PushChatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8856A74F18A87E74006D68F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8856A72118A87E73006D68F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8856A72818A87E73006D68F5;
+			remoteInfo = PushChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8856A72918A87E73006D68F5 /* PushChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8856A72C18A87E73006D68F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8856A72E18A87E73006D68F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8856A73018A87E73006D68F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8856A73418A87E73006D68F5 /* PushChat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushChat-Info.plist"; sourceTree = "<group>"; };
+		8856A73618A87E73006D68F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8856A73818A87E73006D68F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8856A73A18A87E73006D68F5 /* PushChat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushChat-Prefix.pch"; sourceTree = "<group>"; };
+		8856A73B18A87E73006D68F5 /* TNTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTAppDelegate.h; sourceTree = "<group>"; };
+		8856A73C18A87E73006D68F5 /* TNTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNTAppDelegate.m; sourceTree = "<group>"; };
+		8856A73F18A87E73006D68F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8856A74118A87E73006D68F5 /* TNTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNTViewController.h; sourceTree = "<group>"; };
+		8856A74218A87E73006D68F5 /* TNTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNTViewController.m; sourceTree = "<group>"; };
+		8856A74418A87E73006D68F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8856A74A18A87E74006D68F5 /* PushChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8856A74B18A87E74006D68F5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8856A75318A87E74006D68F5 /* PushChatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushChatTests-Info.plist"; sourceTree = "<group>"; };
+		8856A75518A87E74006D68F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8856A75718A87E74006D68F5 /* PushChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushChatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8856A72618A87E73006D68F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8856A72F18A87E73006D68F5 /* CoreGraphics.framework in Frameworks */,
+				8856A73118A87E73006D68F5 /* UIKit.framework in Frameworks */,
+				8856A72D18A87E73006D68F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8856A74718A87E74006D68F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8856A74C18A87E74006D68F5 /* XCTest.framework in Frameworks */,
+				8856A74E18A87E74006D68F5 /* UIKit.framework in Frameworks */,
+				8856A74D18A87E74006D68F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8856A72018A87E73006D68F5 = {
+			isa = PBXGroup;
+			children = (
+				8856A73218A87E73006D68F5 /* PushChat */,
+				8856A75118A87E74006D68F5 /* PushChatTests */,
+				8856A72B18A87E73006D68F5 /* Frameworks */,
+				8856A72A18A87E73006D68F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8856A72A18A87E73006D68F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8856A72918A87E73006D68F5 /* PushChat.app */,
+				8856A74A18A87E74006D68F5 /* PushChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8856A72B18A87E73006D68F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8856A72C18A87E73006D68F5 /* Foundation.framework */,
+				8856A72E18A87E73006D68F5 /* CoreGraphics.framework */,
+				8856A73018A87E73006D68F5 /* UIKit.framework */,
+				8856A74B18A87E74006D68F5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8856A73218A87E73006D68F5 /* PushChat */ = {
+			isa = PBXGroup;
+			children = (
+				8856A73B18A87E73006D68F5 /* TNTAppDelegate.h */,
+				8856A73C18A87E73006D68F5 /* TNTAppDelegate.m */,
+				8856A73E18A87E73006D68F5 /* Main.storyboard */,
+				8856A74118A87E73006D68F5 /* TNTViewController.h */,
+				8856A74218A87E73006D68F5 /* TNTViewController.m */,
+				8856A74418A87E73006D68F5 /* Images.xcassets */,
+				8856A73318A87E73006D68F5 /* Supporting Files */,
+			);
+			path = PushChat;
+			sourceTree = "<group>";
+		};
+		8856A73318A87E73006D68F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8856A73418A87E73006D68F5 /* PushChat-Info.plist */,
+				8856A73518A87E73006D68F5 /* InfoPlist.strings */,
+				8856A73818A87E73006D68F5 /* main.m */,
+				8856A73A18A87E73006D68F5 /* PushChat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8856A75118A87E74006D68F5 /* PushChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8856A75718A87E74006D68F5 /* PushChatTests.m */,
+				8856A75218A87E74006D68F5 /* Supporting Files */,
+			);
+			path = PushChatTests;
+			sourceTree = "<group>";
+		};
+		8856A75218A87E74006D68F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8856A75318A87E74006D68F5 /* PushChatTests-Info.plist */,
+				8856A75418A87E74006D68F5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8856A72818A87E73006D68F5 /* PushChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8856A75B18A87E74006D68F5 /* Build configuration list for PBXNativeTarget "PushChat" */;
+			buildPhases = (
+				8856A72518A87E73006D68F5 /* Sources */,
+				8856A72618A87E73006D68F5 /* Frameworks */,
+				8856A72718A87E73006D68F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PushChat;
+			productName = PushChat;
+			productReference = 8856A72918A87E73006D68F5 /* PushChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8856A74918A87E74006D68F5 /* PushChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8856A75E18A87E74006D68F5 /* Build configuration list for PBXNativeTarget "PushChatTests" */;
+			buildPhases = (
+				8856A74618A87E74006D68F5 /* Sources */,
+				8856A74718A87E74006D68F5 /* Frameworks */,
+				8856A74818A87E74006D68F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8856A75018A87E74006D68F5 /* PBXTargetDependency */,
+			);
+			name = PushChatTests;
+			productName = PushChatTests;
+			productReference = 8856A74A18A87E74006D68F5 /* PushChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8856A72118A87E73006D68F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TNT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Joe Selvik";
+				TargetAttributes = {
+					8856A74918A87E74006D68F5 = {
+						TestTargetID = 8856A72818A87E73006D68F5;
+					};
+				};
+			};
+			buildConfigurationList = 8856A72418A87E73006D68F5 /* Build configuration list for PBXProject "PushChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8856A72018A87E73006D68F5;
+			productRefGroup = 8856A72A18A87E73006D68F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8856A72818A87E73006D68F5 /* PushChat */,
+				8856A74918A87E74006D68F5 /* PushChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8856A72718A87E73006D68F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8856A74518A87E73006D68F5 /* Images.xcassets in Resources */,
+				8856A73718A87E73006D68F5 /* InfoPlist.strings in Resources */,
+				8856A74018A87E73006D68F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8856A74818A87E74006D68F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8856A75618A87E74006D68F5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8856A72518A87E73006D68F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8856A73918A87E73006D68F5 /* main.m in Sources */,
+				8856A73D18A87E73006D68F5 /* TNTAppDelegate.m in Sources */,
+				8856A74318A87E73006D68F5 /* TNTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8856A74618A87E74006D68F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8856A75818A87E74006D68F5 /* PushChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8856A75018A87E74006D68F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8856A72818A87E73006D68F5 /* PushChat */;
+			targetProxy = 8856A74F18A87E74006D68F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8856A73518A87E73006D68F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8856A73618A87E73006D68F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8856A73E18A87E73006D68F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8856A73F18A87E73006D68F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8856A75418A87E74006D68F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8856A75518A87E74006D68F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8856A75918A87E74006D68F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8856A75A18A87E74006D68F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8856A75C18A87E74006D68F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushChat/PushChat-Prefix.pch";
+				INFOPLIST_FILE = "PushChat/PushChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8856A75D18A87E74006D68F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushChat/PushChat-Prefix.pch";
+				INFOPLIST_FILE = "PushChat/PushChat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8856A75F18A87E74006D68F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PushChat.app/PushChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushChat/PushChat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PushChatTests/PushChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8856A76018A87E74006D68F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PushChat.app/PushChat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PushChat/PushChat-Prefix.pch";
+				INFOPLIST_FILE = "PushChatTests/PushChatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8856A72418A87E73006D68F5 /* Build configuration list for PBXProject "PushChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8856A75918A87E74006D68F5 /* Debug */,
+				8856A75A18A87E74006D68F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8856A75B18A87E74006D68F5 /* Build configuration list for PBXNativeTarget "PushChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8856A75C18A87E74006D68F5 /* Debug */,
+				8856A75D18A87E74006D68F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8856A75E18A87E74006D68F5 /* Build configuration list for PBXNativeTarget "PushChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8856A75F18A87E74006D68F5 /* Debug */,
+				8856A76018A87E74006D68F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8856A72118A87E73006D68F5 /* Project object */;
+}
